@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div id="page">
+
+    <h1>Calculator</h1>
+    <div id="calculator">
+        <div id="calculator-input" value="0">0</div>
+        <div id="button-container">
+            <button class="clear-all" data-action="clear">AC</button>
+            <button class="negative" data-action="negate">+/-</button>
+            <button class="percent" data-action="percent">%</button>
+            <button class="key--operator" data-action="divide">&divide;</button>
+
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button class="key--operator" data-action="multiply">&times;</button>
+            
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button class="key--operator" data-action="subtract">&minus;</button>
+
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button class="key--operator" data-action="add">&plus;</button>
+
+            <button class="key-zero" value="0">0</button>
+            <button class="decimal" data-action="decimal">.</button>
+            <button class="key--operator" data-action="calculate" id="calculate-button">&equals;</button>
+            
+        </div>
+    </div>
+</div>
+    
+
+<script text="text/javascript" src="app.js"></script>
+</body>
+</html>
